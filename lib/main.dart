@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:fireboiler/screens/home_screen.dart';
+import 'package:fireboiler/services/state_service.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -8,7 +10,10 @@ void main() async {
   Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const MainApp());
+  runApp(ChangeNotifierProvider(
+    create: (_) => ApplicationState(),
+    child: const MainApp(),
+  ));
 }
 
 class MainApp extends StatelessWidget {
