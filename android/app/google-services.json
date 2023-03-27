@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "41484707082",
+    "project_id": "remiderapp-96277",
+    "storage_bucket": "remiderapp-96277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41484707082:android:ce359dba91be35a10986f3",
+        "android_client_info": {
+          "package_name": "com.example.authbo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41484707082-pt987ndbbiuhmuc9nbk3ioo43beefbl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHuqhUQD4NLRdndfvBCE2YXmdAZgZX5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41484707082-6c9b0ha1bh58ppv93ugvak2pf1qs73g3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41484707082-isok1o8e2b26osl51pqg4rhknd7esnkf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reminderio"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41484707082:android:d5fb2cfeb77171980986f3",
+        "android_client_info": {
+          "package_name": "com.example.fireboiler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41484707082-pt987ndbbiuhmuc9nbk3ioo43beefbl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHuqhUQD4NLRdndfvBCE2YXmdAZgZX5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41484707082-6c9b0ha1bh58ppv93ugvak2pf1qs73g3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41484707082-isok1o8e2b26osl51pqg4rhknd7esnkf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reminderio"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41484707082:android:7abd1b5c59a7e1d20986f3",
+        "android_client_info": {
+          "package_name": "com.example.reminderio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41484707082-pt987ndbbiuhmuc9nbk3ioo43beefbl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHuqhUQD4NLRdndfvBCE2YXmdAZgZX5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41484707082-6c9b0ha1bh58ppv93ugvak2pf1qs73g3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41484707082-isok1o8e2b26osl51pqg4rhknd7esnkf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reminderio"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41484707082:android:4a1cdea2374f51240986f3",
+        "android_client_info": {
+          "package_name": "com.example.statemangers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41484707082-pt987ndbbiuhmuc9nbk3ioo43beefbl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHuqhUQD4NLRdndfvBCE2YXmdAZgZX5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41484707082-6c9b0ha1bh58ppv93ugvak2pf1qs73g3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41484707082-isok1o8e2b26osl51pqg4rhknd7esnkf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reminderio"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
