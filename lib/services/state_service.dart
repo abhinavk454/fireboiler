@@ -80,7 +80,9 @@ class ApplicationState extends ChangeNotifier {
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
-      await _auth.signInWithCredential(credential);
+      await _auth.signInWithCredential(
+        credential,
+      );
     } catch (e) {
       logger.e(
         e,
