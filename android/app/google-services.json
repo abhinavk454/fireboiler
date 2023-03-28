@@ -50,6 +50,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "41484707082-af4iqhvchef918do2r10p9hg2k1atnlq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fireboiler",
+            "certificate_hash": "ff94778ffc5ef8fa2cf0b56ff494dbbd25c0980d"
+          }
+        },
+        {
           "client_id": "41484707082-pt987ndbbiuhmuc9nbk3ioo43beefbl9.apps.googleusercontent.com",
           "client_type": 3
         }
