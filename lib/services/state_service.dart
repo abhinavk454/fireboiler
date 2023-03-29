@@ -96,4 +96,16 @@ class ApplicationState extends ChangeNotifier {
       );
     }
   }
+
+  Future<void> updateName(String displayName) async {
+    try {
+      await _user!.updateDisplayName(
+        displayName,
+      );
+    } catch (e) {
+      logger.e(
+        e,
+      );
+    }
+  }
 }
