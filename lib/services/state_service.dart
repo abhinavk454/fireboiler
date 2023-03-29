@@ -15,7 +15,8 @@ class ApplicationState extends ChangeNotifier {
   }
 
   Future<void> _onAuthStateChange(User? user) async {
-    user = _user;
+    _user = user;
+    logger.d(user, _user);
     notifyListeners();
   }
 
@@ -80,9 +81,15 @@ class ApplicationState extends ChangeNotifier {
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
-      await _auth.signInWithCredential(
-        credential,
-      );
+      try {
+        await _auth.signInWithCredential(
+          credential,
+        );
+      } catch (e) {
+        logger.e(
+          e,
+        );
+      }
     } catch (e) {
       logger.e(
         e,

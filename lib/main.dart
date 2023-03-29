@@ -4,6 +4,7 @@ import 'package:fireboiler/utils/router_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'firebase_options.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,20 +21,17 @@ class MainApp extends StatelessWidget {
   const MainApp({super.key});
   @override
   Widget build(BuildContext context) {
-    final state = Provider.of<ApplicationState>(context);
-
-    String getInitialRoute() {
-      if (state.user != null && state.user!.displayName != null) {
-        return "/dashboard";
-      } else if (state.user != null) {
-        return "/profile";
-      }
-      return "/";
-    }
+    final textTheme = Theme.of(context).textTheme;
 
     return MaterialApp(
-      initialRoute: getInitialRoute(),
+      initialRoute: "/home",
       routes: routes,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        textTheme: GoogleFonts.ralewayTextTheme(
+          textTheme,
+        ),
+      ),
     );
   }
 }
