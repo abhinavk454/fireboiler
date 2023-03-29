@@ -32,7 +32,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 height: 80,
                 width: 80,
                 child: Image.network(
-                  authData.user!.photoURL ?? '',
+                  authData.user!.photoURL ?? placeholderLink,
                   fit: BoxFit.cover,
                 ),
               ),

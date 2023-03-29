@@ -26,6 +26,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: "/home",
       routes: routes,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: GoogleFonts.ralewayTextTheme(
