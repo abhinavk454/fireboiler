@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["fireboiler"]
+  "cSpell.words": [
+    "fireboiler"
+  ],
+  "cmake.sourceDirectory": "${workspaceFolder}/windows/flutter"
 }
